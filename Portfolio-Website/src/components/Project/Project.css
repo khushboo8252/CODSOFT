@@ -1,0 +1,131 @@
+.projects-container {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.project-heading {
+  text-align: center;
+  font-size: 3.5rem;
+  color:#4e8bf5;
+  margin-bottom: 30px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.project img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-left: 170px;
+}
+
+.project-details {
+  width: 100%;
+}
+
+.project-details h3 {
+  color: #4e8bf5;
+  font-size:2rem;
+  margin-bottom: 10px;
+}
+
+.project-details p {
+  margin-bottom: 15px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.project-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #66a2fe;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.project-buttons button:hover {
+  background-color: #4e8bf5;
+}
+
+/* Custom slick arrow styles */
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-size: 0;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slick-arrow:before {
+  content: "";
+  width: 40px;
+  height: 20px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(-45deg);
+}
+
+.slick-next {
+  right: 50px;
+}
+
+.slick-prev {
+  left: 50px;
+}
+
+
+@media screen and (max-width:840px){
+  .project img{
+    width:400px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .project-heading{
+    font-size: 30px;
+    margin-left: 100px;
+  }
+  .project img{
+    width:180px;
+  }
+  
+  .project-details h3{
+   font-size:20px;
+   margin-left: 100px;
+  }
+  .project-details p{
+    font-size: 15px;
+    margin-left: 100px;
+  }
+  .project-buttons button{
+    width:80px;
+   
+  }
+}

@@ -1,0 +1,11 @@
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.post {
+    flex: 0 0 calc(50% - 20px); /* Adjust width as needed */
+    margin: 10px; /* Adjust margin as needed */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}

@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "Powerful laptop with high-resolution display",
+      "price": 1299.99,
+      "category": "Electronics",
+      "image": "https://via.placeholder.com/150?text=Laptop"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "Latest smartphone with advanced features",
+      "price": 899.95,
+      "category": "Electronics",
+      "image": "https://via.placeholder.com/150?text=Smartphone"
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "description": "Wireless noise-canceling headphones",
+      "price": 299.50,
+      "category": "Electronics",
+      "image": "https://via.placeholder.com/150?text=Headphones"
+    },
+    {
+      "id": 4,
+      "name": "T-shirt",
+      "description": "Comfortable cotton t-shirt",
+      "price": 19.99,
+      "category": "Clothing",
+      "image": "https://via.placeholder.com/150?text=T-shirt"
+    },
+    {
+      "id": 5,
+      "name": "Running Shoes",
+      "description": "Lightweight running shoes with good arch support",
+      "price": 129.95,
+      "category": "Footwear",
+      "image": "https://via.placeholder.com/150?text=Running+Shoes"
+    },
+    {
+      "id": 6,
+      "name": "Desk Lamp",
+      "description": "Adjustable LED desk lamp with touch control",
+      "price": 49.99,
+      "category": "Home Decor",
+      "image": "https://via.placeholder.com/150?text=Desk+Lamp"
+    },
+    {
+      "id": 7,
+      "name": "Backpack",
+      "description": "Durable backpack with multiple compartments",
+      "price": 79.95,
+      "category": "Bags",
+      "image": "https://via.placeholder.com/150?text=Backpack"
+    },
+    {
+      "id": 8,
+      "name": "Coffee Maker",
+      "description": "Programmable coffee maker with built-in grinder",
+      "price": 149.99,
+      "category": "Kitchen Appliances",
+      "image": "https://via.placeholder.com/150?text=Coffee+Maker"
+    },
+    {
+      "id": 9,
+      "name": "Yoga Mat",
+      "description": "Eco-friendly yoga mat with non-slip surface",
+      "price": 39.99,
+      "category": "Fitness",
+      "image": "https://via.placeholder.com/150?text=Yoga+Mat"
+    },
+    {
+      "id": 10,
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with deep bass",
+      "price": 79.99,
+      "category": "Electronics",
+      "image": "https://via.placeholder.com/150?text=Bluetooth+Speaker"
+    }
+  ]
+}
